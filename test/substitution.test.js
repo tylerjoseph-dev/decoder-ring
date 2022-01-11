@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { substitution } = require("../src/substitution");
 
-describe("Tests written by the Student:", () =>{
+describe("Substitution() Tests written by the Student:", () =>{
     describe("Error Handling", () =>{
         it("Should return false if the substitution alphabet is not exactly 26 characters long", () =>{
             const alphabet = "abcdefghijklmnopqrstuvwxyz!";
